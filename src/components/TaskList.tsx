@@ -1,6 +1,6 @@
-import { useState } from 'react'
+import { useState } from 'react';
 
-import '../styles/tasklist.scss'
+import '../styles/tasklist.scss';
 
 import { FiTrash, FiCheckSquare } from 'react-icons/fi'
 
@@ -30,7 +30,6 @@ export function TaskList() {
     <section className="task-list container">
       <header>
         <h2>Minhas tasks</h2>
-
         <div className="input-group">
           <input 
             type="text" 
