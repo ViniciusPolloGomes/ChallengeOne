@@ -47,11 +47,12 @@ export function TaskList() {
             : task
     );
 
-    setTasks(tasks=> [...tasks, updatedTask]);
+    setTasks(updatedTask);
   }
 
   function handleRemoveTask(id: number) {
     // Remova uma task da listagem pelo ID
+    
   }
 
   return (
